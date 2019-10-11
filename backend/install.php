@@ -82,10 +82,10 @@ $sql = "CREATE TABLE tasks (
 	PRIMARY KEY (id)
 )";
 if ($conn->query($sql) === true) {
-    echo "Interns table created successfully"."<br/>";
+    echo "Tasks table created successfully"."<br/>";
   }
   else {
-    echo "Error creating Interns table: " . $conn->error."<br/>";
+    echo "Error creating Tasks table: " . $conn->error."<br/>";
   }
 
 
